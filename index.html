@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel VPS - JhoXploit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #111, #222);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #c00;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background-color: #444;
+      border-radius: 5px;
+    }
+    main {
+      padding: 2rem;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #444;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .card h2 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #111;
+      color: #888;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Panel VPS - JhoXploit</h1>
+  </header>
+  <nav>
+    <a href="#">Dashboard</a>
+    <a href="#">Status</a>
+    <a href="#">Logs</a>
+    <a href="#">Settings</a>
+  </nav>
+  <main>
+    <div class="card">
+      <h2>Status VPS</h2>
+      <p>Status: <strong>Online</strong></p>
+    </div>
+    <div class="card">
+      <h2>Perintah Manual</h2>
+      <form>
+        <label for="cmd">Masukkan Perintah:</label><br />
+        <input type="text" id="cmd" name="cmd" style="width: 100%; padding: 8px; margin-top: 5px;"><br /><br />
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 JhoXploit - Panel Sederhana untuk VPS
+  </footer>
+</body>
+</html>
